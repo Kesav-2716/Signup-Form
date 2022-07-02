@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Link-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <!--Icon Link-->
+
+    <link rel="stylesheet"  
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!--Css File-->
+     
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div>
+        <h1>Sign Up</h1>
+        <form action="php" method="get">
+            <input type="text" name="text" placeholder="First Name" autocomplete="off" required>
+            <input type="text" name="text" placeholder="Last Name"  autocomplete="off" required>
+            <br>
+            <input type="tel" name="number" placeholder="Contact Number"  autocomplete="off" required>
+            <input type="email" name="email" placeholder="Email"  autocomplete="off" required>
+            <br>
+            <input type="password" name="password" placeholder="Password" autocomplete="off" onChange="onChange()"required>
+            <input type="password" name="confirm" placeholder="Confirm Password"  autocomplete="off" onChange="onChange()"required>
+            <button type="submit">Create Account</button>
+        </form>
+        
+        <h4>Already Have An Account<a href="#">Login?</a></h4>
+        <i class="fa fa-instagram" style="font-size: 20px;"></i>
+        <i class="fa fa-facebook-f" style="font-size: 20px;"></i>
+        <i class="fa fa-twitter" style="font-size: 20px;"></i>
+        <i class="fa fa-linkedin-square" style="font-size:20px"></i>
+    </div>
+    <!--Script Code-->
+
+   <script src="/script/main.js"></script>
+</body>
+</html>
